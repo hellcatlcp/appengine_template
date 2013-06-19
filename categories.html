@@ -1,0 +1,12 @@
+<html>
+<head></head>
+	<body>
+	<ul>
+		{% for  category in guideCategories["items"] %}
+		<li> Title is {{ category.snippet.title }} id is {{ category.snippet.channelId }} </li>
+		{% endfor %}
+	</ul>
+	</body>
+</html>
+
+
